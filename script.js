@@ -120,7 +120,9 @@ return Math.sqrt(diff).toFixed(2);
 
 function tipCalc(bill, tipPercent) {
   // Write your code here
-
+tipAmount = bill * (tipPercent / 100);
+total = bill + tipAmount;
+return total.toFixed(2);
 }
 
 
